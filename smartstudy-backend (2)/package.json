@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "echo build done",
-    "start": "node dist/server.js",
+    "start": "node src/server.js",
     "lint": "eslint src --ext .ts",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
